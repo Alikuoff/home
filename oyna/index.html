@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aliqulov Azizjon</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Funksiyalar to'plami</h1>
+        
+        <h2>1. Kartoshka dehqoni</h2>
+        <input type="number" id="kartoshkaTonna" placeholder="Tonna">
+        <input type="number" id="kartoshkaNarx" placeholder="1kg narxi (so'm)">
+        <button onclick="kartoshkaDehqoni()">Hisoblash</button>
+        <p id="kartoshkaResult"></p>
+
+        <h2>2. Benzin kolonkasi</h2>
+        <select id="benzinTuri">
+            <option value="Ai80">Ai80</option>
+            <option value="Ai92">Ai92</option>
+            <option value="Ai95">Ai95</option>
+        </select>
+        <input type="number" id="benzinLitr" placeholder="Litr">
+        <button onclick="benzinKolonkasi()">Hisoblash</button>
+        <p id="benzinResult"></p>
+
+        <h2>3. Uy narxi</h2>
+        <input type="number" id="uyNarxi" placeholder="Hozirgi narx ($)">
+        <input type="number" id="yillar" placeholder="Yillar soni">
+        <button onclick="uyNarxiniHisoblash()">Hisoblash</button>
+        <p id="uyResult"></p>
+
+        <h2>4. Somsa tayyorlash</h2>
+        <input type="number" id="gosht" placeholder="Go'sht (kg)">
+        <input type="number" id="piyoz" placeholder="Piyoz (kg)">
+        <input type="number" id="un" placeholder="Un (kg)">
+        <button onclick="somsaHisoblash()">Hisoblash</button>
+        <p id="somsaResult"></p>
+
+        <h2>5. Beshqozon</h2>
+        <input type="number" id="oshKg" placeholder="Kunlik osh (kg)">
+        <input type="number" id="porsiyaGram" placeholder="Bir porsiya (gram)">
+        <button onclick="beshqozon()">Hisoblash</button>
+        <p id="beshqozonResult"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
